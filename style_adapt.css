@@ -1,0 +1,371 @@
+/* Застосування для єкрану від 0 до 415рх */
+@media screen and (max-width: 700px) {
+
+    .wrapper {
+        width: 100vw;
+        background-color: rgb(52, 5, 52);
+    }
+
+    .color_logo{
+        fill:rgb(52, 5, 52);
+    }
+    
+    .top_span {
+        height: 5vw;
+        font-size: 2.5vw;
+        background: var(--s-gradient-2, linear-gradient(229deg, #c5f82b 0%, #ae0c73 100%));
+    }
+
+    .top_menu_wrapper {
+        height: 10vw;
+        width: 94vw;
+        background-color: rgb(52, 5, 52);
+        justify-content: space-around;
+        padding: 0 3vw;
+    }
+
+    .nav_top_menu a:hover {
+        box-shadow: -0.2887vw 0.2309vw 0.9815vw 0.1155vw yellow;
+    }
+
+    .top_menu_logo {
+        width: 17vw;
+    }
+
+    .nav_top_menu a {
+        font-size: 2.5vw;
+    }
+
+    .hero {
+        height: 40vw;
+        margin-top: 7vw
+    }
+
+    .hero h2 {
+        margin-bottom: 7vw;
+    }
+
+    .hero h1,
+    .hero h2 {
+        line-height: 7.5vw;
+        font-size: 7vw;
+    }
+
+    .hero_text {
+        margin-bottom: 6vw;
+        margin-bottom: 7vw;
+    }
+
+    .hero p {
+        font-size: 2.5vw;
+        line-height: 3.2vw;
+    }
+
+    .hero_text,
+    .client_text,
+    .client_logo,
+    .join,
+    .made,
+    .build_menu,
+    .build_main,
+    .build_footer,
+    .Join_community,
+    .last_text,
+    .footer_wrapper {
+        width: 90vw;
+    }
+
+    .form {
+        margin-bottom: 7vw;
+        justify-content: space-around;
+    }
+
+
+    .btn_start_building {
+        background: var(--s-button, linear-gradient(152deg, #ae0c73 0%, #000 100%));
+        margin-right: 15vw;
+        margin-right: 7vw;
+    }
+
+    .btn_start_building,
+    .btn_hero_right {
+        width: 17vw;
+        height: 6vw;
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+    }
+
+    .btn_start_building:hover,
+    .btn_hero_right:hover {
+        box-shadow: -0.2887vw 0.2309vw 0.9815vw 0.1155vw yellow;
+    }
+
+    .client_text {
+        font-size: 1.8vw;
+        line-height: 2.1vw;
+        margin-bottom: 3vw;
+    }
+
+    .second_segment strong,
+    .third_segment strong,
+    .fourth_segment strong {
+        width: 33vw;
+        font-size: 7vw;
+        line-height: 10vw;
+    }
+
+    .second_segment strong {
+        background: linear-gradient(228deg, #c5f82b 0%, #ae0c73 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .third_segment strong {
+        background: linear-gradient(228deg, #ae0c73 0%, springgreen 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .fourth_segment strong {
+        background: linear-gradient(228deg, #3117dd 0%, yellow 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .made {
+        grid-template-areas:
+            "sixth_segment sixth_segment sixth_segment"
+            "seventh_segment seventh_segment seventh_segment"
+            "nineth_segment nineth_segment nineth_segment"
+            "tenth_segment tenth_segment tenth_segment"
+            "eleventh_segment eleventh_segment eleventh_segment";
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 16% 20% 20% 20% 20%;
+        gap: 4vw;
+        margin-bottom: 20vw;
+    }
+
+    .sixth_segment,
+    .seventh_segment,
+    .nineth_segment,
+    .tenth_segment,
+    .eleventh_segment {
+        width: 86vw;
+        height: 22vw;
+    }
+
+    .community h3 {
+        font-size: 4.5vw;
+        width: 80%;
+    }
+
+    .community span,
+    .made p {
+        font-size: 2.5vw;
+    }
+
+    .community h4 {
+        font-size: 3.5vw;
+
+    }
+
+    .community p {
+        font-size: 2.9vw;
+        line-height: 3.5vw;
+    }
+
+    .made h4 {
+        margin-bottom: 2vw;
+    }
+
+    .seventh_segment:hover,
+    .nineth_segment:hover,
+    .tenth_segment:hover,
+    .eleventh_segment:hover {
+        box-shadow: -0.2887vw 0.2309vw 0.9815vw 0.1155vw yellow;
+        padding: 2vw;
+    }
+
+    .build h4 {
+        font-size: 4.5vw;
+    }
+
+    #active_screen_btn {
+        border: 0.0577vw solid #ae0c73;
+    }
+
+    .nav_build_menu a {
+        font-size: 1.5vw;
+    }
+
+    .btn_NFTs,
+    .btn_DeFi,
+    .btn_Payments,
+    .btn_Gaming,
+    .btn_DAOs {
+        width: 9vw;
+    }
+
+    .nav_build_menu button:hover {
+        box-shadow: -0.2887vw 0.2309vw 0.9815vw 0.1155vw yellow;
+        cursor: pointer;
+    }
+
+    .nav_build_menu a {
+        top: 22%;
+        left: 12%;
+    }
+
+    .build_main {
+        flex-direction: column;
+    }
+
+    .img_man_with_phone {
+        width: 100%;
+        height: 50vw;
+    }
+
+    .build_main_text {
+        width: 87.3vw;
+        height: 30vw;
+    }
+
+    .build_main p {
+        font-size: 2.5vw;
+        line-height: 2.7vw;
+        width: 80%;
+        font-weight: 350;
+    }
+
+    .build_main a {
+        color: #ae0c73;
+        font-size: 2.5vw;
+    }
+
+    .img_logo_Anybodies,
+    .build_main_text p {
+        margin-bottom: 2vw;
+    }
+
+    .Join_community,
+    .slider {
+        margin-bottom: 7vw;
+    }
+
+    .slider {
+        grid-template-areas:
+            "first third third fourth sixth seventh"
+            "second third third fifth sixth eighth";
+        grid-template-columns: repeat(6, 42vw);
+        grid-template-rows: repeat(2, 25vw);
+        grid-gap: 3vw;
+        margin-bottom: 35vw;
+    }
+
+    .last_text {
+        margin-bottom: 15vw;
+    }
+
+    .build_menu,
+    .build_footer {
+        margin-bottom: 7vw;
+    }
+
+    .slider h3 {
+        font-size: 6vw;
+        line-height: 6.5vw;
+        letter-spacing: 0.0577vw;
+    }
+
+    .slider span {
+        font-size: 2vw;
+        line-height: 2.3vw;
+    }
+
+    footer {
+        height: 40vw;
+    }
+
+    .footer_wrapper {
+        width: 90vw;
+        height: 30vw;
+    }
+
+    .footer_icons {
+        width: 35%;
+    }
+
+    .footer_contact {
+        width: 50%;
+    }
+
+    .logo_icons img {
+        background-color: #848895;
+        width: 2.3vw;
+        height: 2.3vw;
+        margin-right: 1.4vw;
+    }
+
+    .managed {
+        font-size: 1.7vw;
+        line-height: 1.8vw;
+    }
+
+    .rights {
+        font-size: 1.3vw;
+    }
+
+
+    .footer_contact h5 {
+        font-size: 1.5vw;
+        line-height: 2.1vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .footer_contact a,
+    option,
+    select {
+        font-size: 1.5vw;
+        line-height: 2vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .footer_contact a:hover {
+        background: rgb(52, 5, 52);
+        -webkit-text-fill-color: yellow;
+    }
+
+    .column_1,
+    .column_2 {
+        margin-right: 2vw;
+    }
+
+    .column_3 {
+        height: 4.5vw;
+    }
+
+    select,
+    option {
+        background-color: rgb(52, 5, 52);
+    }
+
+    .footer_icons>img {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .globe {
+        width: 2vw;
+        height: 2.5vw;
+        margin-right: 0.7vw;
+    }
+
+    .logo_icons img:hover {
+        background-color: yellow;
+        box-shadow: -0.2887vw 0.2309vw 0.9815vw 0.1155vw yellow;
+    }
+
+}
